@@ -1,0 +1,22 @@
+name: Feature or device support request
+description: Propose a concrete improvement or report an untested environment.
+title: "[Feature]: "
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem would this solve?
+    validations:
+      required: true
+  - type: textarea
+    id: proposal
+    attributes:
+      label: Proposed behavior
+      description: Explain the expected user workflow and any recovery implications.
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Relevant device / desktop / distribution
+      description: Include architecture and versions for compatibility requests; distinguish observed behavior from assumptions.

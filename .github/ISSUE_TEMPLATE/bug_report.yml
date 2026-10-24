@@ -1,0 +1,50 @@
+name: Bug report
+description: Report a reproducible problem with Memminning.
+title: "[Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: "Review attachments for secrets or private paths. Preserve session.json if restoration is incomplete. For vulnerabilities, use Security → Report a vulnerability."
+  - type: input
+    id: version
+    attributes:
+      label: Memminning version
+      placeholder: "Output of memminning --version"
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Device and environment
+      description: Architecture, distribution, kernel, desktop/version, Wayland or X11, Python and systemd versions.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      description: Include selected action types and targets, removing private identifiers if needed.
+    validations:
+      required: true
+  - type: textarea
+    id: behavior
+    attributes:
+      label: Expected and actual behavior
+    validations:
+      required: true
+  - type: dropdown
+    id: recovery
+    attributes:
+      label: Did restoration succeed?
+      options:
+        - Not applicable — no actions were applied
+        - Yes
+        - No — session still needs attention
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Relevant redacted logs or diagnostics
+      description: Optional. Do not attach credentials, browser contents or an unredacted environment dump.

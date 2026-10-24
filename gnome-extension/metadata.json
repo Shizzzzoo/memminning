@@ -1,0 +1,10 @@
+{
+  "uuid": "memminning@local",
+  "name": "Memminning",
+  "description": "Open the Memminning resource review and temporary gaming mode app.",
+  "shell-version": [
+    "51"
+  ],
+  "version": 1,
+  "url": "https://github.com/Shizzzzoo/memminning"
+}

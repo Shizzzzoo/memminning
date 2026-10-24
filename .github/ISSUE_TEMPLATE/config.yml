@@ -1,0 +1,8 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Installation and troubleshooting
+    url: https://github.com/Shizzzzoo/memminning/blob/main/SUPPORT.md
+    about: Start with the setup and troubleshooting guides.
+  - name: Private vulnerability report
+    url: https://github.com/Shizzzzoo/memminning/security/advisories/new
+    about: Do not post exploitable details or sensitive data in a public issue.

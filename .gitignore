@@ -1,0 +1,18 @@
+__pycache__/
+*.py[cod]
+.venv/
+dist/
+.env
+.env.*
+*.log
+session.json
+profile.json
+diagnostics-*.json
+avatar.png
+!tests/fixtures/avatar.png
+# Third-party portrait binaries are optional local downloads.
+assets/characters/*.png
+assets/characters/.artwork-*
+# Local design history and captures are not part of the release.
+docs/archive/
+docs/*.png
